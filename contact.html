@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thuy Hoang - Portfolio</title>
+  <link rel="shortcut icon" href="./image/peruvian.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <section id="navigation">
+    <div class="nav-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </div>
+  </section>
+  <div id="nav-content">
+    <div class="close-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </div>
+    <div class="wrapper">
+      <h2 class="section-heading">Menu</h2>
+      <nav>
+        <ul>
+          <li><a data-text="Home" href="./index.html#hero">Home</a></li>
+          <li><a data-text="About" href="./index.html#about">About</a></li>
+          <li><a data-text="Contact" href="./contact.html">Contact</a></li>
+          <li><a data-text="Projects" href="./index.html#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Contect Form -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-heading" data-outline="contact">Contact</h2>
+      <div class="wrapper">
+        <div class="left">
+          <img style="height: 700px;" src="./image/contact.jpeg" alt="">
+        </div>
+        <div class="right">
+          <div class="form-wrapper">
+            <form action="https://formsubmit.co/thuyhoang.to.ca@gmail.com" method="POST">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <div class="input-wrapper">
+                  <span class="icon">
+                    <ion-icon name="person-outline"></ion-icon>
+                  </span>
+                  <input type="text" id="name" name="name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <div class="input-wrapper">
+                  <span class="icon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                  </span>
+                  <input type="text" id="email" name="email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+
+                <textarea type="text" id="message" name="message" width="100%"></textarea>
+
+              </div>
+              <input type="hidden" name="_next" value="http://thuyhoang.org/">
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <section id="footer">
+    <div class="container">
+      <footer>
+        <div class="col-1">
+          <h2 class="column-heading">Important Links</h2>
+          <ul>
+            <li><a href="./index.html#home">Home</a></li>
+            <li><a href="./index.html#about">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./index.html#projects">Project</a></li>
+          </ul>
+        </div>
+        <div class="col-2">
+          <h2 class="column-heading">Contact Info</h2>
+          <ul>
+            <li><a href="#">pthoang3@gmail.com</a></li>
+            <li><a href="#">(+437)-488-4609</a></li>
+            <li><a href="#">Toronto, Canada</a></li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <h2 class="column-heading">Social Links</h2>
+          <ul>
+            <li><a href="https://github.com/pthoang3"></i>Github</a></li>
+            <li><a href="https://www.linkedin.com/in/thuy-hoang-2280ba149/">LinkedIn</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100013271112860"></i>Facebook</a></li>
+            <li><a href="https://www.instagram.com/thuyhoang._.214/">Instagram</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+  <section id="copyright">
+    <div class="container">
+      <p> &copy; Copyright 2021 Thuy Hoang. All right Reserved</p>
+    </div>
+  </section>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
